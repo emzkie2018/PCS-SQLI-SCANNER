@@ -211,7 +211,7 @@ def cari(inurl , site , maxc):
 	    print (B+"[+] "+G+"Site          "+W+": %s"%(site))
     return finallist
 
-if __name__ == "__main__"
+if __name__ == "__main__":
   print ("_____ ____ __ ____ _____ _________ _ ___ ____________")
   print (R+"/ ___// __ \ / / / _/ / ___// ____/ | / | / / | / / ____/ __ \")
   print (R+"\__ \/ / / / / / / / \__ \/ / / /| | / |/ / |/ / __/ / /_/ /")
