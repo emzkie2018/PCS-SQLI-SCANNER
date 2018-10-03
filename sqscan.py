@@ -1,11 +1,6 @@
 import urllib2 , cookielib , random , re , sys , socket , time , httplib , ssl
 
-       #########################################
-       # Author : Debby anggraini ( @ciku370 ) #
-       # Team   : Blackhole Security           #
-       # Date   : 2 - 5 - 2018                 #
-       # Github : https://github.com/ciku370   #
-       #########################################
+       
 
 if sys.platform == "linux2" or sys.platform == "linux":
 	R = ("\033[31m")
@@ -212,13 +207,15 @@ def cari(inurl , site , maxc):
     return finallist
 
 if __name__ == "__main__":
-  print ("_____ ____ __ ____ _____ _________ _ ___ ____________")
-  print (R+"/ ___// __ \ / / / _/ / ___// ____/ | / | / / | / / ____/ __ \")
-  print (R+"\__ \/ / / / / / / / \__ \/ / / /| | / |/ / |/ / __/ / /_/ /")
-  print (R+"___/ / /_/ / / /____/ / ___/ / /___/ ___ |/ /| / /| / /___/ _, _/")
-  print (R+"/____/\___\_\/_____/___/ /____/\____/_/ |_/_/ |_/_/ |_/_____/_/ |_|")
-  print (W+43*"BY [+]SANJI[+]")
+  mess """#########################################
+       # Author : S4nji ( @emzkie2018 )        #
+       # Team   : Philippine CyberSec Community#
+       # Date   : 10 - 4 - 2018                #
+       # Github : https://github.com/emzkie2018#
+       #########################################
   
+  """
+print mess
 	inurl = raw_input(B+"[?]"+G+" Inurl    "+W+": ")
 	site  = raw_input(B+"[?]"+G+" Site     "+W+": ")
 	maxc  = raw_input(B+"[?]"+G+" Max Page "+W+": ")
