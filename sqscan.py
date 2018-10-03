@@ -212,9 +212,7 @@ if __name__ == "__main__":
        # Team   : Philippine CyberSec Community#
        # Date   : 10 - 4 - 2018                #
        # Github : https://github.com/emzkie2018#
-       #########################################
-  
-  """
+       #########################################"""
 print mess
 	inurl = raw_input(B+"[?]"+G+" Inurl    "+W+": ")
 	site  = raw_input(B+"[?]"+G+" Site     "+W+": ")
